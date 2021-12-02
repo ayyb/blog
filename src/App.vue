@@ -62,6 +62,9 @@
       </div>
     </nav>
     <List :dataList='dataList'/>
+    <router-link to="/list">이동하기</router-link><br/>
+    <router-link to="/detail">상세페이지 이동</router-link>
+    <router-view></router-view><!--routerView로 이동한 페이지를 보여주는 화면-->
   </div>
 </template>
 
